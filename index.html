@@ -1,0 +1,155 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>StreamHub</title>
+
+<meta name="description" content="Fast HD Video Streaming">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#09090f,#151528,#09090f);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    overflow:hidden;
+}
+
+body::before{
+    content:'';
+    position:fixed;
+    inset:0;
+    background:
+    radial-gradient(circle at top left,rgba(168,85,247,.25),transparent 40%),
+    radial-gradient(circle at bottom right,rgba(236,72,153,.18),transparent 45%);
+    z-index:-1;
+}
+
+.container{
+    width:100%;
+    max-width:420px;
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:22px;
+    padding:30px;
+    text-align:center;
+    backdrop-filter:blur(15px);
+    box-shadow:0 0 40px rgba(0,0,0,.5);
+}
+
+.logo{
+    font-size:42px;
+    font-weight:900;
+    color:#b56cff;
+    text-shadow:0 0 18px rgba(181,108,255,.8);
+    margin-bottom:15px;
+}
+
+.desc{
+    color:#ddd;
+    font-size:15px;
+    line-height:1.6;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:58px;
+    text-decoration:none;
+    color:#fff;
+    font-size:17px;
+    font-weight:bold;
+    border-radius:14px;
+    margin-bottom:15px;
+    transition:.25s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+    filter:brightness(1.08);
+}
+
+.btn-primary{
+    background:linear-gradient(135deg,#8b5cf6,#c026d3);
+    box-shadow:0 10px 25px rgba(168,85,247,.45);
+}
+
+.btn-secondary{
+    background:linear-gradient(135deg,#ef4444,#dc2626);
+    box-shadow:0 10px 25px rgba(239,68,68,.35);
+}
+
+.btn-third{
+    background:linear-gradient(135deg,#10b981,#059669);
+    box-shadow:0 10px 25px rgba(16,185,129,.35);
+}
+
+.footer{
+    margin-top:15px;
+    color:#999;
+    font-size:13px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<div class="logo">
+StreamHub
+</div>
+
+<div class="desc">
+Your video is ready. If one server is unavailable, simply choose another option below.
+</div>
+
+<a class="btn btn-primary"
+href="https://mediaplaycc.site/"
+target="_blank">
+▶ Watch Now
+</a>
+
+<a class="btn btn-secondary"
+href="https://mediaplaycc.site/"
+target="_blank">
+⚡ Server 02
+</a>
+
+<a class="btn btn-secondary"
+href="https://mediaplaycc.site/"
+target="_blank">
+🚀 Backup Server
+</a>
+
+<a class="btn btn-third"
+href="https://aminaha21.github.io/dgsdgsdgs/"
+target="_blank">
+🎥 HD Streaming
+</a>
+
+<div class="footer">
+Powered by StreamHub CDN
+</div>
+
+</div>
+
+</body>
+</html>
+```
